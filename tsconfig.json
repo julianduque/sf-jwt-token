@@ -1,12 +1,13 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
+    "module": "es2020",
+    "esModuleInterop": true,
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
     "noImplicitAny": true,
     "removeComments": false,
     "suppressImplicitAnyIndexErrors": true,
-    "target": "es2017",
+    "target": "es2020",
     "experimentalDecorators": true,
     "outDir": "dist",
     "declaration": true,
